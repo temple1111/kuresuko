@@ -14,7 +14,7 @@ const transactionHttp = repositoryFactory.createTransactionRepository()
 
 setTimeout(() => {
   
-const address = symbol.Address.createFromRawAddress("NBONLVEXMTJGTCRHKJKD475TYQOE5V4X3X67RMY")
+const address = symbol.Address.createFromRawAddress("NDDMB7C7OEEWT7UCX6JXWH43SSE32BYN67SUGOI")
 
 const dom_addr = document.getElementById('wallet-addr')
 dom_addr.innerText = address.pretty()
